@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio and projects.">
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wallpaper"></div>
+
+  <header class="menubar">
+    <div class="menu-left">
+      <span class="apple">●</span>
+      <span class="menu-item strong">Your Name</span>
+      <span class="menu-item">About</span>
+      <span class="menu-item">Projects</span>
+      <span class="menu-item">Contact</span>
+    </div>
+    <div class="menu-right">
+      <span id="clock"></span>
+      <button class="icon-button" id="themeToggle" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
+
+  <main class="desktop">
+    <section class="window hero-window">
+      <div class="titlebar">
+        <div class="traffic"><i></i><i></i><i></i></div>
+        <span>About Me</span>
+        <span class="window-spacer"></span>
+      </div>
+      <div class="hero">
+        <div class="avatar">YN</div>
+        <div class="hero-copy">
+          <p class="eyebrow">WELCOME TO MY CORNER OF THE INTERNET</p>
+          <h1>Hi, I'm <span>Your Name</span>.</h1>
+          <p class="lead">
+            Computer engineering / IT student, builder, tinkerer, and developer.
+            I like turning ideas into working software and hardware.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/" target="_blank" rel="noreferrer">View GitHub ↗</a>
+            <a class="button" href="#projects">See Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="window" id="projects">
+      <div class="titlebar">
+        <div class="traffic"><i></i><i></i><i></i></div>
+        <span>Projects</span>
+        <span class="window-spacer"></span>
+      </div>
+      <div class="content">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">MY WORK</p>
+            <h2>Things I've built.</h2>
+          </div>
+          <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">github.com ↗</a>
+        </div>
+
+        <div class="projects">
+          <article class="project">
+            <div class="project-icon">⚙</div>
+            <div>
+              <h3>Smart Gate</h3>
+              <p>RFID access control, vehicle recognition, visitor management, logging, and a web dashboard.</p>
+              <div class="tags"><span>ESP32</span><span>RFID</span><span>PHP</span><span>MySQL</span></div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-icon">⌘</div>
+            <div>
+              <h3>Project Two</h3>
+              <p>Replace this with another project, experiment, app, or open-source contribution.</p>
+              <div class="tags"><span>Web</span><span>JavaScript</span></div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-icon">▣</div>
+            <div>
+              <h3>Project Three</h3>
+              <p>Show off something interesting you've made. Keep descriptions short and visual.</p>
+              <div class="tags"><span>Hardware</span><span>Python</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="window split-window">
+      <div class="titlebar">
+        <div class="traffic"><i></i><i></i><i></i></div>
+        <span>Links</span>
+        <span class="window-spacer"></span>
+      </div>
+      <div class="content links-grid">
+        <a class="link-card" href="https://github.com/" target="_blank" rel="noreferrer">
+          <span class="link-icon">GH</span>
+          <span><b>GitHub</b><small>Code & repositories</small></span>
+          <span>↗</span>
+        </a>
+        <a class="link-card" href="mailto:you@example.com">
+          <span class="link-icon">✉</span>
+          <span><b>Email</b><small>you@example.com</small></span>
+          <span>↗</span>
+        </a>
+        <a class="link-card" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <span class="link-icon">in</span>
+          <span><b>LinkedIn</b><small>Professional profile</small></span>
+          <span>↗</span>
+        </a>
+        <a class="link-card" href="https://discord.com/" target="_blank" rel="noreferrer">
+          <span class="link-icon">DC</span>
+          <span><b>Discord</b><small>Find me online</small></span>
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Your Name</span>
+      <span>Built with HTML, CSS & JavaScript · Hosted on Cloudflare Pages</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
