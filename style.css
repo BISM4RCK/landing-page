@@ -132,9 +132,9 @@ body {
   gap: 42px;
 }
 .avatar {
-  width: 128px;
-  height: 128px;
-  flex: 0 0 128px;
+  width: 200px;
+  height: 200px;
+  flex: 0 0 200px;
   border-radius: 30px;
   display: grid;
   place-items: center;
